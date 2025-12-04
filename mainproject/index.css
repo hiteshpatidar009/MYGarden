@@ -1,0 +1,284 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+navbar{
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    height:35px;
+   
+    background-color: rgb(18, 17, 23);
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7px;
+    
+   
+   }
+#pink{
+    color:white;
+    background-color: rgb(211, 46, 119);
+    border-radius: 25px;
+    height:25px;
+    width:100px
+   
+}
+a {
+    text-decoration: none;
+    color: white;
+    text-decoration-style: dotted;
+}
+li{
+    
+    display:inline;
+    justify-content: space-evenly;
+    
+    
+}
+
+#myVideo video {
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+  background-size: cover;
+}
+.content{
+    padding-left: 50px;
+    padding-top:430px;
+    color:white;
+}
+
+#pag2{
+    display: flex;
+    
+    justify-content:flex-end;
+   
+}
+
+    #pag2 video {
+       
+        margin-top: 70px;
+        position:absolute;
+        z-index: -1;
+        width: 100%;
+        
+       
+       background-size:contain;
+      
+   
+      
+    }
+
+    #pag3{
+        padding-top:70px;
+        height:500px;
+       
+       
+    }
+
+    #pag4{
+        margin-top:70px;
+        
+        padding-right: 25px;
+
+       
+    }
+    #text1{
+        margin-top: 20px;
+        
+        width:200px;
+        border-radius: 12px;
+       color:rgb(255, 255, 0);
+       transition:1s ease-in;
+        
+    }
+    #text1:hover{
+       
+        transform:scale(1.2);
+        color:black;
+    }
+   #box1{
+    
+    height:81px;
+    width:90px;
+    background-image:url(./photo/Hitesh.png);
+    background-size:cover;
+    border-radius: 50%;
+    transition:1s ease-in;
+  
+}
+#box1:hover{
+    transform:scale(2);
+    
+}
+
+
+#box2{
+    
+    height:80px;
+    width:90px;
+    background-image:url(./photo/tarun.png);
+    background-size:cover;
+    border-radius: 50%;
+    transition:1s ease-in;
+}
+#box2:hover{
+    transform:scale(2);
+}
+
+#box3{
+    height:80px;
+    width:90px;
+    background-image:url(./photo/hemant.png);
+    background-size:cover;
+    border-radius: 50%;
+    transition:1s ease-in;
+   }
+   #box3:hover{
+    transform:scale(2);
+}
+#box4{
+    height:80px;
+    width:90px;
+    background-image:url(./photo/harshit.png);
+    background-size:cover;
+    border-radius: 50%;
+    transition:1s ease-in;
+   }
+   #box4:hover{
+    transform:scale(2);
+}
+   #box5{
+    height:80px;
+    width:90px;
+    
+    background-image:url(./photo/rohit.png);
+    background-size:cover;
+    border-radius: 50%;
+    transition:1s ease-in-out;
+   }
+   #box5:hover{
+    transform:scale(2);
+}
+
+#page3{ 
+    position:absolute;
+    z-index: -1; 
+    width: 100%;
+    background-image:url(./photo/lash.jpg);
+    height: 700px;
+    background-size: cover;
+    
+
+}
+ #Backend{
+
+     padding-top:30px;
+    color:white;
+    text-align: center;
+    
+}
+#back1{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+#Frontend{
+    
+   padding-top:25px;
+    color:white;
+    text-align: center;
+    
+}#back2{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+#Deployment{
+    
+    padding-top:30px;
+    color:white;
+    text-align: center;
+    
+}#back3{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+#Database{
+    
+    padding-top:30px;
+    color:white;
+    text-align: center;
+    
+}
+#back4{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+#Submit{
+   
+   
+    margin:20px;
+    height: 23px;
+    width: 200px;
+    border-radius: 12px;
+    
+    border-color:yellowgreen
+}
+#Submit:hover{
+    background-color: green;
+    color:white
+}
+
+
+footer {
+   
+   background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(190,0,66,1) 32%, rgb(2,0,36,1) 99%);
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    margin-top: 500px;
+    width: 100%;
+}
+
+footer a {
+    margin: 10px 0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+footer a {
+    color: rgb(186, 203, 75);  /* Matches the button color */
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+
+footer a:hover {
+    text-decoration:none;
+    color: rgb(203, 200, 200);
+}
+
+#foterbut {
+    margin-top: 10px;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(190, 21, 97);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size:15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#foterbut:hover {
+    background-color: rgb(154, 151, 77);
+}
+
+

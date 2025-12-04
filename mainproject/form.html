@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+    <script src="./form.js"></script>
+</head>
+<body>
+ <div class="harsit"><br>
+    <h1 style="text-align:center"> Project Information Form</h1>
+    <form action="" name="login" onsubmit="return validation()">
+        <h3>Personal Info:</h3><br>
+        <label for="uname">Enter your name</label>
+        <input type="text" name="uname" id="uname" /><br><br>
+        
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dateofbirth" id="dob"  />
+        
+        <label for="phone">Phone no.</label>
+        <input type="tel" name="phone" id="phone" /><br><br>
+        
+        <label>Gender</label>
+        <label id="gender">Sex:</label>
+        <input type="radio" name="gender" value="Male" /><span>Male</span>
+        <input type="radio" name="gender" value="Female"  /><span>Female</span><br><br>
+        
+        <label>Religion</label>
+        <input type="radio" name="reg" value="Hindu" /><span>Hindu</span>
+        <input type="radio" name="reg" value="Muslim"  /><span>Muslim</span>
+        <input type="radio" name="reg" value="Christian"  /><span>Christian</span>
+        <input type="radio" name="reg" value="Other"  /><span>Other</span><br><br>
+        
+        <h3>Present Address :</h3>
+        <label for="country">Country</label>
+        <select name="country" id="country" >
+            <option value="">(Please select a country)</option>
+            <option value="AF">Australia</option>
+            <option value="AL">Canada</option>
+            <option value="DZ">India</option>
+            <option value="AS">Russia</option>
+            <option value="AD">USA</option>
+        </select>
+
+        <label for="state">State</label>
+        <select name="state" id="state" >
+            <option value="">(Please select a state)</option>
+            <option value="AP">Andhra Pradesh</option>
+            <option value="AR">Arunachal Pradesh</option>
+            <option value="GJ">Gujarat</option>
+            <option value="HR">Haryana</option>
+            <option value="HP">Himachal Pradesh</option>
+            <option value="MH">Maharashtra</option>
+            <option value="ML">Meghalaya</option>
+            <option value="MP">Madhya Pradesh</option>
+            <option value="TN">Tamil Nadu</option>
+            <option value="RJ">Rajasthan</option>
+            <option value="PB">Punjab</option>
+        </select><br><br>
+
+        <label for="address">Address</label>
+        <input name="address" id="address"  /><br><br>
+        
+        <h3>Permanent Address :</h3>
+        <label for="pcountry">Country</label>
+        <select name="pcountry" id="pcountry" >
+            <option value="">(Please select a country)</option>
+            <option value="AF">Australia</option>
+            <option value="AL">Canada</option>
+            <option value="DZ">India</option>
+            <option value="AS">Russia</option>
+            <option value="AD">USA</option>
+        </select>
+
+        <label for="pstate">State</label>
+        <select name="pstate" id="pstate" >
+            <option value="">(Please select a state)</option>
+            <option value="AP">Andhra Pradesh</option>
+            <option value="AR">Arunachal Pradesh</option>
+            <option value="GJ">Gujarat</option>
+            <option value="HR">Haryana</option>
+            <option value="HP">Himachal Pradesh</option>
+            <option value="MH">Maharashtra</option>
+            <option value="ML">Meghalaya</option>
+            <option value="MP">Madhya Pradesh</option>
+            <option value="TN">Tamil Nadu</option>
+            <option value="RJ">Rajasthan</option>
+            <option value="PB">Punjab</option>
+        </select><br><br>
+
+        <label for="paddress">Address</label>
+        <input name="paddress" id="paddress"  /><br><br>
+        
+        <label for="occupation">Your Occupation</label>
+        <input name="occupation" id="occupation"  />
+
+        <label for="email">Email id</label>
+        <input type="email" name="email" id="email" /><br><br>
+
+        <h4>Frontend</h4>
+        
+            <input type="radio" id="html5" name="fav_language" value="HTML5">
+            <label for="html5">HTML5</label>
+            <input type="radio" id="React" name="fav_language" value="React">
+            <label for="React">React</label>
+            <input type="radio" id="AngularJS" name="fav_language" value="AngularJS">
+            <label for="AngularJS">AngularJS</label>
+            <input type="radio" id="Vue.js" name="fav_language" value="Vue.js">
+            <label for="Vue.js">Vue.js</label>
+            
+            <h4>Backend</h4>
+            <div id="back1">
+              <input type="radio" id="Node.js" name="monster" value="K" />
+              <label for="Node.js">Node.js</label>
+            
+              <input type="radio" id="Laravel" name="monster" value="S" />
+              <label for="Laravel">Laravel</label>
+            
+              <input type="radio" id="PHP" name="monster" value="M" />
+              <label for="PHP">PHP</label>
+
+              <input type="radio" id=".Net" name="monster" value="M" />
+              <label for=".Net">.Net</label>
+
+              <input type="radio" id=".Net Core" name="monster" value="M" />
+              <label for=".Net Core">.Net Core</label>
+
+              <input type="radio" id=".Net Core" name="monster" value="M" />
+              <label for=".Net Core">Codeigniter</label>
+             
+
+              <h4>Database</h4>
+            
+              <input type="radio" id="MySQL" name="ste" value="K" />
+              <label for="MySQL">MySQL</label>
+            
+              <input type="radio" id="MS SQL" name=ste" value="S" />
+              <label for="MS SQL">MS SQL</label>
+            
+              <input type="radio" id="PostgreSQL" name="ste" value="M" />
+              <label for="PostgreSQL">PostgreSQL</label
+              <input type="radio" id="MongoDB" name="ste" value="M" />
+              <label for="MongoDB">MongoDB</la
+              <input type="radio" id="Access" name="ste" value="M" />
+              <label for="Access"> Access</label>
+         </div><br><br>
+        
+         <textarea placeholder="Project Description" rows="5" cols="30"></textarea><br><br>
+        
+        <input type="file" id="myFile" name="filename" >
+        
+        <input id="submit" type="submit" value="Submit">
+     </form> 
+</div>
+</body>
+</html>

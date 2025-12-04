@@ -1,0 +1,31 @@
+*{
+   margin:0;
+   padding: 0;
+}
+    
+
+.harsit{
+   
+    background-image: url(./form.jpg);
+    background-size:cover;  
+}
+form{
+   
+    margin-top:0px;
+    margin-left: 90px;
+    margin-right:90px;
+    background-color:rgb(142, 211, 202);
+    box-shadow: 10px 10px 10px 10px  rgb(108, 171, 192);
+
+   
+}
+#submit{
+    height:20px;
+    width:150px;
+    border-radius: 100px
+
+}
+#submit:hover{
+    background-color: green;
+    color:white;
+}
